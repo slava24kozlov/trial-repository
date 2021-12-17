@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Profile from "./Profile";
+import Message from "./Message";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           Learn React and Git
         </a>
         <Profile/>
+        <Message/>
       </header>
     </div>
   );
