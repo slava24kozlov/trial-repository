@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Profile from "./Profile";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           Learn React and Git
           <p style={{color: "red", fontStyle: 'italic'}}>Information in pre-prod</p>
         </a>
+        <Profile/>
       </header>
     </div>
   );
