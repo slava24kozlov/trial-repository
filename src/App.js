@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Profile from "./Profile";
+import Message from "./Message";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <p style={{color: "red", fontStyle: 'italic'}}>Information in pre-prod</p>
         </a>
         <Profile/>
+        <Message/>
       </header>
     </div>
   );
