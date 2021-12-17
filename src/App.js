@@ -15,6 +15,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React and Git
+          <p style={{color: "red", fontStyle: 'italic'}}>Information in pre-prod</p>
         </a>
       </header>
     </div>
